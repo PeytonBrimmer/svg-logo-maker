@@ -6,7 +6,7 @@ const criteria = require('./library/criteria.js');
 
 function createLogo(response) {
     const svg = shape(response);
-    fs.writeFile(name, svg, () => console.log('Logo Generated')):
+    fs.writeFile(name, svg, () => console.log('Logo Generated'));
     }
 
     function initialize() {
