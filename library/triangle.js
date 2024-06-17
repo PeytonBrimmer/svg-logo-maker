@@ -1,5 +1,5 @@
 const shape = require('./shape.js');
-class triangle extends shape {
+class Triangle extends shape {
     constructor(shapeColor, textColor, text) {
         super(shapeColor, textColor, text);
     };
@@ -13,4 +13,4 @@ class triangle extends shape {
         </svg>`
     };
 };
-module.exports = triangle;
+module.exports = Triangle;

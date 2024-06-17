@@ -1,8 +1,21 @@
 {
-  "dependencies": {
-    "package.json": "^0.0.0"
+  "name": "logo-maker-10",
+  "version": "1.0.0",
+  "description": "logo maker challenge 10",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
   },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }

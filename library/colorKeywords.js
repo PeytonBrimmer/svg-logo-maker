@@ -143,7 +143,10 @@ const colorKeywords = ['blue', `AliceBlue`,`AntiqueWhite`,
 `White`,
 `WhiteSmoke`,
 `Yellow`,
-`YellowGreen`,]
+`YellowGreen`,
+'red',
+'green',
+'blue',]
 
 
 module.exports = colorKeywords
