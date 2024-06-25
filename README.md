@@ -8,7 +8,7 @@ The goal of the project was to be able to generate a SVG logo with the option of
 ## INSTALLATION
 use "node -v" in the terminal to check if node.js is installed. if it is not go to the node.js website and install node.js. after installing clone this repository to your computer. use "npm install" on the terminall to install dependencies. then use "npm isntall --save-dev jest" to install jest as a dependency. Jest is what the application uses to run the projects tests.
 
-## USeAGE
+## USEAGE
 start in the terminal by typing "node index.js" or bby typing "npm start". When the program starts in the terminal yuo will be prompted with criteria questions in order to generate the logo. all fields must be filled out. the logo will then be genrated when all of the answers are complete. 
 
 
