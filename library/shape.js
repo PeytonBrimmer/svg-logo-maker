@@ -1,10 +1,10 @@
-class shape {
-    constructor( textColor, shapeColor, text) {
+class Shape {
+    constructor(textColor, shapeColor, text) {
         this.textColor = textColor;
         this.text = text;
         this.shapeColor = shapeColor;
     }
 };
 
-module.exports = shape;
+module.exports = Shape;
 // Path: library/triangle.js

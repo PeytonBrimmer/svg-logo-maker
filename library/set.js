@@ -1,21 +1,22 @@
-const triangle = require('./triangle.js');
-const circle = require('./circle.js');
-const square = require('./square.js');
+const Triangle = require('./Triangle.js');
+const Circle = require('./Circle.js');
+const Square = require('./Square.js');
 
 function setShape(response) {
-    if (response.shape === "triangle") {
-        let userShape = new triangle(response.shapeColor, response.textColor, response.text);
+    if (response.shape === "Triangle") {
+        let userShape = new Triangle(response.shapeColor, response.textColor, response.text);
+        console.log(userShape);
         return userShape.render();
     }
-    if(response.shape === "circle") {
-        let userShape = new circle(response.shapeColor, response.textColor, response.text);
+    if(response.shape === "Circle") {
+        let userShape = new Circle(response.shapeColor, response.textColor, response.text);
         return userShape.render();
     }
-    if(response.shape === "square") {
-        let userShape = new square(response.shapeColor, response.textColor, response.text);
+    if(response.shape === "Square") {
+        let userShape = new Square(response.shapeColor, response.textColor, response.text);
         return userShape.render();
     }
-    else(return.response("Invalid shape"));
+    else{return console.error("invalid shape")};
 }
 
 module.exports = setShape;
